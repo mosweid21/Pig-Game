@@ -1,24 +1,29 @@
-# Guess My Number
+# Pig Game
 
 ## Description
-"Guess My Number" is an interactive web-based game where players attempt to guess a randomly generated number by the computer. Designed with simplicity and user engagement in mind, the game provides hints to the player whether their guess is too high or too low, adding to the fun of figuring out the correct number.
+"Pig Game" is a fun and engaging two-player dice game where each turn, a player rolls a dice as many times as they dare to accumulate points. But beware! Roll a '1', and you'll lose all points gained during that turn. The game promotes risk management and strategic thinking, making it an exciting challenge.
 
 ## How to Play
-1. **Start the Game:** When the game loads, a secret number between 1 and 20 is randomly chosen by the computer.
-2. **Make a Guess:** Enter your guess in the input field provided.
-3. **Submit Your Guess:** Click the 'Check' button to submit your guess.
-4. **Review Feedback:** The game will tell you if your guess is too high, too low, or correct.
-5. **Adjust and Retry:** If your guess was incorrect, adjust based on the hint and guess again until you find the correct number.
-6. **Win or Lose:** You win the game if you guess correctly. If you run out of points before guessing correctly, the game ends.
-
+- **Starting the Game:** Each player begins with a score of 0. On your turn, roll the dice to add points to your current score.
+- **Rules:**
+  1. On your turn, you can roll the dice as many times as you want. Each result adds to your current score.
+  2. But, if you roll a '1', you lose all points accumulated in that turn, and your turn ends.
+  3. You can choose to 'Hold', which means your current score is added to your global score, and your turn ends.
+  4. The first player to reach 100 points on global score wins the game.
+  
 ## Features
-- **Interactive Gameplay:** Engage with dynamic responses based on your input.
-- **Score Tracking:** Keep track of your score which decreases with each incorrect guess.
-- **Winning and Losing States:** Experience different visual cues based on game outcomes.
-- **Responsive Design:** Play the game on any device with a web browser.
+- **Interactive Design:** Simple yet engaging interface that keeps both players informed of their scores and turn status.
+- **Responsive Layout:** Play on any device, adjusting perfectly to different screen sizes.
+- **Score Tracker:** Visual score display for current and global scores.
+- **Game Controls:** Players can roll the dice or hold their score through easy-to-use buttons.
 
-## Installation
-To play "Guess My Number" on your local machine:
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Setup
+To play "Pig Game" on your local machine:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Guess-My-Number.git
+   git clone https://github.com/yourusername/Pig-Game.git
